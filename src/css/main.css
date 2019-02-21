@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';  /*引入antd 样式*/
+/*  这里写的样式在任何页面都能直接使用  即全局样式  */
+.content {
+  background: #fff;
+  padding: 20px;
+  min-height: 400px;
+}
+.shadow-0px {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.09);
+}
