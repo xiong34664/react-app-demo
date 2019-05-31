@@ -8,6 +8,15 @@ import './App.css'
 const {Content, Footer} = Layout
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {}
+  }
+  componentDidMount() {
+    if(!localStorage.token) {
+     return this.props.history.replace('/login')
+    }
+  }
   render() {
     return (
       <Layout>
